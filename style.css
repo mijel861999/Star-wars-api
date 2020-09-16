@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+}
+
+#main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#main .container{
+    border-radius: 10px;
+    background: #F2E205;
+    height: 70vh;
+    width: 70vw;
+} 
+
+#main .container .datos-container{
+    border-radius: 10px;
+    color: #D98E04;
+    background: #2F0459;
+    height: 60vh;
+} 
+
+#main .container div .datos{
+    height: auto;
+} 
+
+#main .container .next{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} 
+
+#main .container .previous{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+} 
